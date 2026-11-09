@@ -72,38 +72,38 @@ Las pruebas se realizaron con Talend API Tester. Las capturas están en la
 carpeta `Capturas/`.
 
 ### 1. Crear serie (POST) - 201 Created
-![POST crear serie](Capturas/Post-Arcane.png)
+![POST crear serie](spring/spring/app.01/Capturas/Post-Arcane.png)
 
 ### 2. Listar todas las series (GET) - 200 OK
-![GET todas](Capturas/Get-apiseries.png)
+![GET todas](spring/spring/app.01/Capturas/Get-apiseries.png)
 
 ### 3. Buscar serie por ID (GET) - 200 OK
-![GET por id](Capturas/get-api-1.png)
+![GET por id](spring/spring/app.01/Capturas/get-api-1.png)
 
 ### 4. Buscar serie con ID inexistente (GET) - 404 Not Found
-![GET id inexistente](Capturas/get-api-999.png)
+![GET id inexistente](spring/spring/app.01/Capturas/get-api-999.png)
 
 ### 5. Actualizar serie (PUT) - 200 OK
-![PUT actualizar](Capturas/put-api-1.png)
+![PUT actualizar](spring/spring/app.01/Capturas/put-api-1.png)
 
 ### 6. Actualizar serie con ID inexistente (PUT) - 404 Not Found
-![PUT id inexistente](Capturas/put-api-999.png)
+![PUT id inexistente](spring/spring/app.01/Capturas/put-api-999.png)
 
 ### 7. Eliminar serie (DELETE) - 204 No Content
-![DELETE eliminar](Capturas/delete-api-2.png)
+![DELETE eliminar](spring/spring/app.01/Capturas/delete-api-2.png)
 
 ### 8. Verificar que la serie eliminada ya no existe (GET) - 404 Not Found
-![GET serie eliminada](Capturas/get-api-2.png)
+![GET serie eliminada](spring/spring/app.01/Capturas/get-api-2.png)
 
 ### 9. Eliminar serie con ID inexistente (DELETE) - 404 Not Found
-![DELETE id inexistente](Capturas/delete-api-999.png)
+![DELETE id inexistente](spring/spring/app.01/Capturas/delete-api-999.png)
 
 ### 10. Datos inválidos (POST) - 400 Bad Request
-![POST datos inválidos](Capturas/post-api-invalidos.png)
+![POST datos inválidos](spring/spring/app.01/Capturas/post-api-invalidos.png)
 
 ### Otras capturas
-![GET lista tras la actualización](Capturas/Get-apiseries-1.png)
-![API en ejecución local](Capturas/api-series-local.png)
+![GET lista tras la actualización](spring/spring/app.01/Capturas/Get-apiseries-1.png)
+![API en ejecución local](spring/spring/app.01/Capturass/api-series-local.png)
 
 ## Casos límite probados
 - Buscar, actualizar o eliminar un ID que no existe - 404
